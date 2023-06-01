@@ -1,0 +1,186 @@
+.cmp1{
+    min-height: 600px;
+    width: 900px;
+    background-color: rgb(244, 237, 255);
+    border-radius: 30px;
+    position: relative;
+    padding: 20px 50px;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 100px;
+
+    .record{
+        width: 35px;
+        position: absolute;
+        top: 100px;
+        left: 405px;
+    }
+    .record1{
+        width: 120px;
+        top: 520px;
+        left: 340px;
+        position: absolute;
+        opacity: 0.5;
+        
+    }
+
+    .leaf{
+        top: -50px;
+        left: 100px;
+        width: 100px;
+        position: absolute;
+        transform: rotate(-30deg);
+    }
+
+    .ring{
+        width: 530px;
+        left: 480px;
+        top: 30px;
+        position: absolute;
+    }
+
+    .record4{
+        width: 300px;
+        top: 145px;
+        left: 595px;
+        position: absolute;
+    }
+
+    .phone{
+        width: 150px;
+        border-radius: 20px;
+        left: 670px;
+        top: 140px;
+        position: absolute;
+    }
+
+    .slide{
+        width: 133px;
+        top: 237px;
+        left: 545px;
+        border-radius: 10px;
+        position: absolute;
+    }
+
+    .ghost1{
+        position: absolute;
+        width: 70px;
+        height: 65px;
+        top: 50px;
+        left: 700px;
+        transform: rotate(-20deg);
+    }
+
+    .ghost3{
+        position: absolute;
+        width: 65px;
+        height: 60px;
+        top: 380px;
+        left: 530px;
+        transform: rotate(20deg);
+    }
+
+    .ghost5{
+        position: absolute;
+        width: 75px;
+        height: 70px;
+        top: 380px;
+        left: 880px;
+        transform: rotate(-10deg);
+    }
+
+    .ghost6{
+        position: absolute;
+        width: 20px;
+        height: 25px;
+        top: 180px;
+        left: 548px;
+        transform: rotate(205deg);
+    }
+
+    .ghost7{
+        position: absolute;
+        width: 20px;
+        height: 25px;
+        top: 495px;
+        left: 738px;
+        transform: rotate(90deg);
+    }
+
+    .ghost8{
+        position: absolute;
+        width: 20px;
+        height: 25px;
+        top: 220px;
+        left: 940px;
+        transform: rotate(-20deg);
+    }
+
+    // .ghost9{
+    //     position: absolute;
+    //     top: 900px;
+
+    // }
+
+    .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        p{
+            font-weight: 600px;
+            margin-left: 5px;
+            margin-top: 100px;
+        }
+
+        h1{
+            max-width: 500px;
+            font-size: 60px;
+            line-height: 60px;
+            margin-top: 5px;
+        }
+
+        .info{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            button{
+                background-color: black;
+                height: 45px;
+                padding: 0px 15px;
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+
+                .apple{
+                    width: 24px;
+                }
+                .description{
+                    font-family: 'Rubik', sans-serif;
+                    color: whitesmoke;
+                    p{
+                        margin: 0px;
+                        font-size: 12px;
+                    }
+                    h4{
+                        margin: 0px;
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            .rating{
+                div{
+                    margin: 4px;
+                }
+
+                p{
+                    margin: 6px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

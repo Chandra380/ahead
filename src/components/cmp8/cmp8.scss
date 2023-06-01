@@ -1,0 +1,28 @@
+.cmp8{
+    font-family: 'Rubik', sans-serif;
+    padding: 20px 50px;
+    h1{
+        font-size: 44px;
+        font-family: 'Noto Sans', sans-serif;
+        margin-bottom: 40px;
+    }
+    .tables{
+        display: flex;
+        gap: 40px;
+        .table{
+            background-color: rgb(255, 250, 225);
+            padding: 20px;
+            border-radius: 15px;
+            h3{
+                font-size: 17px;
+                margin-left: 25px;
+            }
+            ul{
+                li{
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}

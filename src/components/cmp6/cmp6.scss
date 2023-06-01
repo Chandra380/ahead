@@ -1,0 +1,44 @@
+.cmp6{
+    min-height: 400px;
+    width: 900px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+
+    .l1{
+        margin-bottom: 15px;
+    }
+    .l2{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .l3{
+        max-width: 500px;
+        line-height: 25px;
+        font-size: 18px;
+        margin-bottom: 30px;
+        color: rgb(90, 90, 90);
+    }
+    .sign{
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    button{
+        font-family: 'Rubik', sans-serif;
+        background-color: black;
+        color: whitesmoke;
+        border-radius: 25px;
+        padding: 13px 20px;
+        border: none;
+    }
+    .f1{
+        padding: 15px;
+        font-size: 14px;
+        color: rgb(90, 90, 90);
+    }
+}

@@ -1,0 +1,21 @@
+.cmp4{
+    min-height: 50px;
+    width: 900px;
+    font-family: 'Rubik', sans-serif;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    .lr{
+        font-weight: 600;
+        font-size: 30px;
+        max-width: 250px;
+    }
+    .sm{
+        max-width: 270px;
+        font-size: 17px;
+        line-height: 25px;
+        color: rgb(56, 56, 56);
+    }
+}
