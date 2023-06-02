@@ -17,11 +17,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@500&family=Rubik&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans:wght@700&family=Poppins:wght@500&family=Rubik&display=swap" rel="stylesheet"/>
       </head>
       <body className={inter.className}>
         <Navbar/>
-        {children}
+        <div>
+          {children}
+        </div>
       </body>
     </html>
   )

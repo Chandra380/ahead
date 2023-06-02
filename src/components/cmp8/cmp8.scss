@@ -1,6 +1,7 @@
 .cmp8{
     font-family: 'Rubik', sans-serif;
     padding: 20px 50px;
+    min-height: 380px;
     h1{
         font-size: 44px;
         font-family: 'Noto Sans', sans-serif;
@@ -8,11 +9,13 @@
     }
     .tables{
         display: flex;
-        gap: 40px;
+        gap: 30px;
         .table{
             background-color: rgb(255, 250, 225);
-            padding: 20px;
+            padding: 20px 30px;
             border-radius: 15px;
+            cursor: pointer;
+
             h3{
                 font-size: 17px;
                 margin-left: 25px;
@@ -22,6 +25,18 @@
                     font-size: 14px;
                     line-height: 20px;
                 }
+            }
+            button{
+                font-family: 'Rubik', sans-serif;
+                margin-left: 60px;
+                // margin-top: 5px;
+                border: none;
+                background-color: black;
+                color: whitesmoke;
+                border-radius: 20px;
+                padding: 0px 30px;
+                height: 40px;
+                cursor: pointer;
             }
         }
     }
