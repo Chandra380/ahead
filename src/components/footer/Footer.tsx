@@ -6,8 +6,15 @@ import email from '../../assests/email.png'
 import pin from '../../assests/pin.png'
 import apple from '../../assests/apple.png'
 import up from '../../assests/up.png'
+import CMP1 from '../cmp1/CMP1'
 
 export default function Footer(){
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth',
+        });
+    };
     return(
         <div className='footer'>
             <div className='st'></div>
@@ -31,7 +38,7 @@ export default function Footer(){
                 </div>
             </button>
             <div className='cpyrt'>© 2022 Ahead app. All right reserved</div>
-            <a href=''><motion.img 
+            <a href="#top" onClick={scrollToTop}><motion.img 
                 whileInView={{y: [-10, 10]}}
                 transition={{duration: 0.5, repeat: Infinity, repeatType: "reverse"}}
             src={up.src} alt="up" className='up'/></a>
