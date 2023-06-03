@@ -11,8 +11,8 @@ export default function CMP7(){
                     <img src={ghost0.src} alt='ghost'/>
                     <h2>About</h2>
                     <p>At ahead our goal is to make self-improvement
-                        fun and lasting. We know there's a way how to
-                        make it work. And that's what aHead is all about!
+                        fun and lasting. We know there&apos;s a way how to
+                        make it work. And that&apos;s what aHead is all about!
                     </p>
                 </div>
                 <div className='product'>
