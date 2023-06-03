@@ -25,6 +25,7 @@ export default function CMP1(){
         <motion.div className="cmp1"
             initial={{opacity: 0}}
             whileInView={{opacity: 1}}
+            transition={{duration: 0.5}}
             viewport={{ once: true }}
          >
             <motion.img

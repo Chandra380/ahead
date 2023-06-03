@@ -6,7 +6,6 @@ import email from '../../assests/email.png'
 import pin from '../../assests/pin.png'
 import apple from '../../assests/apple.png'
 import up from '../../assests/up.png'
-import CMP1 from '../cmp1/CMP1'
 
 export default function Footer(){
     const scrollToTop = () => {
